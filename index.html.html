@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>calculator</title>
+    <style>
+    .calculator {
+        width: 350px;
+        background-color:#ff4da0;
+        padding: 20px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        border-radius: 15px;
+        padding-bottom: 35px;
+
+
+      
+      }
+      
+      .display {
+      
+        width: 335px;
+        font-size: 42px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        background-color: #b3cccc;
+        border: 2px solid black;
+      }
+      
+      .buttons-row {
+        justify-content:space-evenly;
+        display: flex;
+        margin-top: 15px;
+      }
+      
+      .buttons{
+        font-size: 35px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 0 1px 0.5px black
+
+      }
+      .buttons:hover{
+        font-size: 39px;
+        box-shadow: 0 0 1px 0.5px blanchedalmond;
+      }
+      .colour-green{
+        background-color: rgb(11, 252, 7);
+        color:white;
+      }
+      .color-yellow{
+        font-size: 20px;
+        background-color: yellow;
+        color: black;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .brand-name{
+        font-size: 19px;
+        color: wheat;
+        
+      }
+      .small-screen-container{
+         display:flex ;
+         justify-content: end;
+         margin-right: 17px;
+
+      }
+      .small-screen{
+        height: 30px;
+        width: 30px;
+        border: .5px solid black;
+        background-color:#b3cccc;
+      
+      }
+
+      </style>
+      
+</head>
+<body>
+    <div class="calculator">
+      <p class="brand-name">CASIO</p>
+     
+      <input type="text" class="display">
+
+      <div class="small-screen-container">
+        <div class="small-screen"></div>
+        <div class="small-screen"></div>
+        <div class="small-screen"></div>
+      </div>
+
+      <div class="buttons-row">
+        <button class="buttons">%</button>
+        <button class="buttons colour-green">7</button>
+        <button class="buttons colour-green">8</button>
+        <button class="buttons colour-green">9</button>
+        <button class="buttons">/</button>
+      </div>
+        
+      <div class="buttons-row">
+        <button class=" color-yellow">OFF</button>
+        <button class="buttons colour-green">4</button>
+        <button class="buttons colour-green">5</button>
+        <button class="buttons colour-green">6</button>
+        <button class="buttons">x</button>
+      </div>
+      <div class="buttons-row">
+        <button class=" color-yellow">ON</button>
+        <button class="buttons colour-green">1</button>
+        <button class="buttons colour-green">2</button>
+        <button class="buttons colour-green">3</button>
+        <button class="buttons ">-</button>
+      </div>
+      <div class="buttons-row">
+        <button class="buttons colour-green  ">0</button>
+        <button class="buttons colour-green">00</button>
+        <button class="buttons colour-green">.</button>
+        <button class="buttons">=</button>
+        <button class="buttons">+</button>
+      </div>
+          
+        </div>
+      
+      
+</body>
+</html>
